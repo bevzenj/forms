@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="#" method="POST">
+        <label for="login">Логин:</label>
+        <input type="text" id="login" name="login">
+        <br><br>
+        <label for="password">Пароль:</label>
+        <input type="password" id="password" name="password">
+        <br><br>
+        <label for="email">Електронная почта:</label>
+        <input type="email" id="email" name="email">
+        <br><br>
+        <label for="fname">Имя:</label>
+        <input type="text" id="fname" name="fname">
+        <br><br>
+        <label for="sname">Фамилия:</label>
+        <input type="text" id="sname" name="sname">
+        <br><br>
+        <label for="phone">Номер телефона:</label>
+        <input type="tel" id="phone" name="phone">
+        <br><br>
+        <label for="cities">Город:</label>
+        <select name="cars" id="cars">
+            <option value="#"></option>
+            <option value="Kyiv">Киев</option>
+            <option value="Kherson">Херсон</option>
+            <option value="Odessa">Одесса</option>
+        </select>
+        <br><br>
+        <label for="birthday">Укажите дату рождения:</label>
+        <input type="date" id="birthday" name="birthday">
+        <br><br>
+        <label for="#">Уровень знания английского языка:</label>
+        <label for="one">1</label>
+        <input type="radio" id="one" name="english" value="1">
+        <label for="two">2</label>
+        <input type="radio" id="two" name="english" value="2">
+        <label for="three">3</label>
+        <input type="radio" id="three" name="english" value="3">
+        <label for="four">4</label>
+        <input type="radio" id="four" name="english" value="4">
+        <label for="five">5</label>
+        <input type="radio" id="five" name="english" value="5">
+        <label for="six">6</label>
+        <input type="radio" id="six" name="english" value="6">
+        <label for="seven">7</label>
+        <input type="radio" id="seven" name="english" value="7">
+        <label for="eight">8</label>
+        <input type="radio" id="eight" name="english" value="8">
+        <label for="nine">9</label>
+        <input type="radio" id="nine" name="english" value="9">
+        <label for="ten">10</label>
+        <input type="radio" id="ten" name="english" value="10">
+        <br><br>
+        <fieldset>
+            <legend>Опыт работы</legend>
+            <br>
+            <label for="company">Компания:</label>
+            <input type="text" id="company" name="company">
+            <br><br>
+            <label for="position">Должность:</label>
+            <input type="text" id="position" name="position">
+            <br><br>
+            <label for="start_work">Начало работы:</label>
+            <input type="month" id="start_work">
+            <br><br>
+            <label for="end_work">Окончание работы:</label>
+            <input type="month" id="end_work">
+            <br>
+            <input type="checkbox" id="today">
+            <label for="today">По настоящее время</label>
+        </fieldset>
+        <br><br>
+        <label>Видимость резьме:</label>
+        <input type="radio" id="all" name="visibility">
+        <label for="all">Всем пользователям</label>
+        <input type="radio" id="registered" name="visibility">
+        <label for="registered">Только зарегистрированным</label>
+        <br><br>
+        <label for="download">Загрузыть резюме:</label>
+        <input type="file" id="download">
+        <br><br>
+        <label for="salary">Желаемая заработная плата:</label>
+        <input type="number" id="salary">
+        <label>в долларах США</label>
+        <br><br><br>
+        <input type="submit" value="Отправить информацию">
+        <input type="reset">
+    </form>
+</body>
+</html>
